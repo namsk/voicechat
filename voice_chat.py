@@ -1,5 +1,5 @@
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 import openai
 # 시간 정보를 위한 패키지 추가
@@ -11,7 +11,7 @@ import base64
 # audiorecorder 패키지 추가
 from audiorecorder import audiorecorder
 
-load_dotenv()
+# load_dotenv()/
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
